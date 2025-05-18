@@ -1,0 +1,6 @@
+opencv-python
+numpy
+torch
+torchvision
+ultralytics
+PyYAML  # For handling settings.yaml configuration
