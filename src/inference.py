@@ -2,7 +2,6 @@ import cv2
 import torch
 from ultralytics import YOLO
 
-# Ensure PyTorch runs on CPU
 device = "cpu"
 model = YOLO("models/yolov8n.pt").to(device)  # Load YOLOv8 model
 
